@@ -1,0 +1,30 @@
+name: front_end
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.2
+
+dependencies:
+  build_runner: ^2.4.15
+  dio: ^5.8.0+1
+  fl_chart: ^1.0.0
+  flutter:
+    sdk: flutter
+  flutter_mobx: ^2.3.0
+  get_it: ^8.0.3
+  go_router: ^15.1.2
+  mobx: ^2.5.0
+  mobx_codegen: ^2.7.0
+  pretty_dio_logger: ^1.4.0
+  provider: ^6.1.5
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
